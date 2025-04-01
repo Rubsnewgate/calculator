@@ -56,7 +56,7 @@ const getResult = () => {
         return
     }
 
-    operate(operator, previousOperand, +currentOperand)
+    result = operate(operator, previousOperand, +currentOperand)
 
     if (result === 'ERROR') {
         calculatorElements.screen.innerText = 'ERROR'
