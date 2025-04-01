@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Calculator </title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="calculator__screen">
+            <output class="result" id="screen"></output>
+        </div>
+
+        <div class="calculator__btns">
+            <div class="group-one">
+                <button class="btn clear" value="AC" type="button" aria-label="Clear">
+                    AC
+                </button>
+                <button class="btn delete" value="←" type="button" aria-label="Delete">
+                    ←
+                </button>
+                <button class="btn operator" value="÷" type="button" aria-label="Divide">
+                    ÷
+                </button>
+            </div>
+
+            <div class="group-two">
+                <button class="btn operand" value="7" type="button" aria-label="Seven">
+                    7
+                </button>
+                <button class="btn operand" value="8" type="button" aria-label="Eight">
+                    8
+                </button>
+                <button class="btn operand" value="9" type="button" aria-label="Nine">
+                    9
+                </button>
+                <button class="btn operator" value="*" type="button" aria-label="Multiply">
+                    *
+                </button>
+            </div>
+
+            <div class="group-three">
+                <button class="btn operand" value="4" type="button" aria-label="Four">
+                    4
+                </button>
+                <button class="btn operand" value="5" type="button" aria-label="Five">
+                    5
+                </button>
+                <button class="btn operand" value="6" type="button" aria-label="Six">
+                    6
+                </button>
+                <button class="btn operator" value="-" type="button" aria-label="Subtract">
+                    -
+                </button>
+            </div>
+
+            <div class="group-four">
+                <button class="btn operand" value="3" type="button" aria-label="Three">
+                    3
+                </button>
+                <button class="btn operand" value="2" type="button" aria-label="Two">
+                    2
+                </button>
+                <button class="btn operand" value="1" type="button" aria-label="One">
+                    1
+                </button>
+                <button class="btn operator" value="+" type="button" aria-label="Add">
+                    +
+                </button>
+            </div>
+
+            <div class="group-five">
+                <button class="btn operand zero" value="0" type="button" aria-label="Zero">
+                    0
+                </button>
+                <button class="btn decimal" value="." type="button" aria-label="Dot">
+                    .
+                </button>
+                <button class="btn equals" value="=" type="button" aria-label="Equals">
+                    =
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
